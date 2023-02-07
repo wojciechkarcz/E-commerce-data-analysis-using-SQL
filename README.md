@@ -13,7 +13,7 @@ JUPYTER NOTEBOOKS
 
 Below are links to Jupyter notebooks with data analytics broken down by area:
 
-  1. Orders and payments
+  1. [Orders and payments](/notebooks/olist_analysis_1_orders.ipynb)
   2. Products
   3. Sellers
   4. Customers
