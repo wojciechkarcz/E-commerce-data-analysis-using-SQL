@@ -51,3 +51,17 @@ Useful information:
 - product names are in Portuguese, they can be translated into English using the table *products_translation*
 - the total price of the order (payment_value) is calculated as the sum of the prices (price) of all products and shipping (freight_value) within one order
 - within one order (order_id) many products from different categories can be ordered, information on this subject can be found in the *order_items* table
+
+
+TOOLS
+---
+
+The main task in this project was to practice SQL on a real dataset and extract valuable information only with the help of SQL. The entire analysis was performed using Jupyter notebook. In several places there are graphs used to visualize some data.
+
+| Task  |  Tool/package |
+|---|---|
+| Database type | SQLite|  
+| Query language   | SQL |  
+| Data Visualization   | matplotlib, seaborn |  
+| Environment / Platforms   | Python 3.8+, Jupyter Notebook|  
+
