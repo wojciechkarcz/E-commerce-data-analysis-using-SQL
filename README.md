@@ -7,21 +7,31 @@ OBJECTIVE
 
 The aim of the project is to improve practical skills related to learning SQL. As an exercise, I conducted an analysis of real e-commerce data provided by the Brazilian online store Olist.
   
+<br>
 
 JUPYTER NOTEBOOKS  
 ---
 
 Below are links to Jupyter notebooks with data analytics broken down by area:
 
-  1. [Orders and payments](/notebooks/olist_analysis_1_orders.ipynb)
-  2. [Products](/notebooks/olist_analysis_2_products.ipynb)
-  3. [Sellers](/notebooks/olist_analysis_3_sellers.ipynb)
+  1. **[Orders and payments](/notebooks/olist_analysis_1_orders.ipynb)**
+  2. **[Products](/notebooks/olist_analysis_2_products.ipynb)**
+  3. **[Sellers](/notebooks/olist_analysis_3_sellers.ipynb)**
   4. Customers
   5. Reviews
   6. Delivery time
 
+<br>
+
 BACKGROUND
 ---
+<figure>
+<img src="/img/olist_screenshot.png" width="550" height="">
+<figcaption align = "center"><i>Screenshot from one of the Olist's store (image credit: Olist)</i></figcaption>
+</figure>
+
+<br>
+<br>
 
 This project uses an open dataset from the Brazilian site Olist. All data and full documentation are available on the Kaggle website. This is anonymized e-commerce data for 100,000 orders covering the period 2016-18. That's a great material for practicing SQL, because we are dealing with a real database that is used in a typical online store.
 
@@ -29,9 +39,18 @@ The Olist platform works as a marketplace. Which means that it connects sellers 
 
 Thanks to this, we can analyze data from many different perspectives and draw interesting conclusions. In this project, I decided to divide the analysis into several main groups starting with orders, products and sellers.
 
+<br>
 
 DATABASE SCHEMA
 ---
+
+<figure>
+<img src="/img/olist_db_schema.png" width="750" height="">
+<figcaption align = "center"><i>Olist database schema (image credit: Olist)</i></figcaption>
+</figure>
+
+<br>
+<br>
 
 The image above shows the database schema along with the keys that are used to connect individual tables to each other.
 
@@ -54,6 +73,7 @@ Useful information:
 - the total price of the order (payment_value) is calculated as the sum of the prices (price) of all products and shipping (freight_value) within one order
 - within one order (order_id) many products from different categories can be ordered, information on this subject can be found in the *order_items* table
 
+<br>
 
 TOOLS
 ---
