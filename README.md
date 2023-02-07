@@ -33,7 +33,7 @@ BACKGROUND
 <br>
 <br>
 
-This project uses an open dataset from the Brazilian site Olist. All data and full documentation are available on the Kaggle website. This is anonymized e-commerce data for 100,000 orders covering the period 2016-18. That's a great material for practicing SQL, because we are dealing with a real database that is used in a typical online store.
+This project uses an open dataset from the Brazilian site Olist. All data and full documentation are available on the [Kaggle website](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). This is anonymized e-commerce data for 100,000 orders covering the period 2016-18. That's a great material for practicing SQL, because we are dealing with a real database that is used in a typical online store.
 
 The Olist platform works as a marketplace. Which means that it connects sellers directly with individual customers. In the database, we will find a lot of information about orders, payments, product prices and shipping, locations of sellers and customers, reviews, and features of individual products.
 
