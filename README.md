@@ -1,5 +1,7 @@
 # E-commerce data analysis using SQL
 
+<img src="/img/order_count.png" width="500" height="">
+
 OBJECTIVE
 ---
 
